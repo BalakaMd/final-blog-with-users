@@ -45,21 +45,13 @@ Before running the application, make sure you have the following installed:
    export DB_URI="sqlite:///blog.db"
    ```
 
-5. Initialize the database:
-
-   ```bash
-   python
-   from your_app import db
-   db.create_all()
-   exit()
-   ```
 
 ## Usage
 
 To run the application, use the following command:
 
 ```bash
-python your_app.py
+python main.py
 ```
 
 Visit `http://localhost:5000` in your web browser to access the blog website.
